@@ -31,4 +31,4 @@ const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', '');
 
 }, 10);
 
-document.addEventListener('ontouchstart', jump);
+document.addEventListener('keydown', jump);
