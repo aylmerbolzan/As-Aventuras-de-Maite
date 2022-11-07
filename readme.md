@@ -1,4 +1,4 @@
-<h1 align="center"> Super Mario Run</h1>
+<h1 align="center">🌳 As Aventuras de Maitê 🐺</h1>
 
 <p align="center">
 Game desenvolvido utilizando apenas linguagens básicas para prática de aprendizado.
@@ -15,12 +15,12 @@ Game desenvolvido utilizando apenas linguagens básicas para prática de aprendi
 <br>
 
 <p align="center">
-  <img alt="calendario da copa" src="./images/preview.png" width="100%">
+  <img alt="As Aventuras de Maitê" src="./images/preview.png" width="100%">
 </p>
 
 ## 💻 Projeto
 
-Jogo ao estilo T-Rex Game, do Google Chrome, onde o personagem deve desviar dos canos que vêm em sua direção.
+Jogo ao estilo T-Rex Game, do Google Chrome, onde a personagem deve desviar dos perigos que vêm em sua direção.
 
 
 ## 🚀 Tecnologias
@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🎮 Jogar
 
-Clique [aqui](https://aylmerbolzan.github.io/Super-Mario-Run/) para iniciar o jogo.
+Clique [aqui](https://aylmerbolzan.github.io/As-Aventuras-de-Maite/) para iniciar o jogo.
 
 ---
 <br>

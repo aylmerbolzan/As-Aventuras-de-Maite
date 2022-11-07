@@ -6,32 +6,33 @@
 
 .logo {
     position: absolute;
-    width: 20vw;
+    width: 30vw;
     top: 15%;
-    left: 40%;
+    left: 33.33%;
 }
 
 .game-board {
   width: 100%;
   height: 100vh;
-  border-bottom: 15px solid #007A04;
+  border-bottom: 15px solid #337a35;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
   background: linear-gradient(#87ceeb, #e0f6ff);
 }
 
-.pipe {
+.wolf {
   position: absolute;
   bottom: 0;
-  width: 80px;
-  animation: pipe-animation 2s infinite linear;
+  width: 150px;
+  animation: wolf-animation 3s infinite linear;
 }
 
-.mario {
-  width: 150px;
+.maite {
+  width: 80px;
   position: absolute;
   bottom: 0;
+  margin-bottom: -2px;
 }
 
 .clouds {
@@ -41,18 +42,42 @@
   animation: clouds-animation 20s infinite linear;
 }
 
-.clouds2 {
-  width: 550px;
+.clouds-2 {
+  height: 252px;
   position: absolute;
   top: 30px;
-  animation: clouds-animation 30s infinite linear;
+  animation: clouds-2-animation 30s infinite linear;
+}
+
+.grass,
+.tree-1 {
+  width: 180px;
+  right: -350px;
+  position: absolute;
+  bottom: 0;
+  animation: tree-animation 10s infinite linear;
+}
+
+.tree {
+  width: 320px;
+  position: absolute;
+  bottom: 0;
+  animation: tree-animation 10s infinite linear;
+}
+
+.tree-1 {
+  animation-delay: 4s;
+}
+
+.grass {
+  animation-delay: 6.5s;
 }
 
 .jump {
   animation: jump 500ms ease-out;
 }
 
-@keyframes pipe-animation {
+@keyframes wolf-animation {
   from {
     right: -80px;
   }
@@ -83,6 +108,24 @@
 @keyframes clouds-animation {
   from {
     right: -550px;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes clouds-2-animation {
+  from {
+    right: -1550px;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes tree-animation {
+  from {
+    right: -350px;
   }
   to {
     right: 100%;
