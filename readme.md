@@ -15,7 +15,7 @@ Game desenvolvido utilizando apenas linguagens básicas para prática de aprendi
 <br>
 
 <p align="center">
-  <img alt="As Aventuras de Maitê" src="./images/preview.png" width="100%">
+  <img alt="As Aventuras de Maitê" src="./images/intro.png" width="100%">
 </p>
 
 ## 💻 Projeto

@@ -32,4 +32,4 @@ const marioPosition = +window.getComputedStyle(maite).bottom.replace('px', '');
 
 }, 10);
 
-document.addEventListener('keydown', jump);
+document.addEventListener('keypress', jump);
